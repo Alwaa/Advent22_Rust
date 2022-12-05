@@ -1,0 +1,17 @@
+use std::io::{Error};
+
+
+fn main() -> Result<(),Error> {
+    let path = std::env::current_dir().expect("CURRENT WORKING DIR");
+    println!("{}", path.display());
+    let file_path = std::path::Path::new("../input22-test.txt"); //Path relative to proj folder...
+    
+    let input = std::fs::read_to_string(file_path).unwrap();
+    let lines = input.split("\n");
+
+    for line in lines {
+        println!("{}",line);
+    }
+
+    Ok(())
+}
