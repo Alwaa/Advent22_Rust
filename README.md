@@ -9,3 +9,4 @@ Personal notes on topics i delved into:
 - String vs str
 - HashSet
   - Reference intersect vs creating new hashmap and capturing ownership of input
+- VecDeque to make a ringbuffer (i think that's what it is in memmory)
