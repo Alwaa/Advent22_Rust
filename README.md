@@ -10,3 +10,6 @@ Personal notes on topics i delved into:
 - HashSet
   - Reference intersect vs creating new hashmap and capturing ownership of input
 - VecDeque to make a ringbuffer (i think that's what it is in memmory)
+- Used petgragh to make directed graphs and wrote a non-recursice dfs to propagate sizes up a tree i modeled as a directed graph
+  - this was more work than needed, but got more familiar with the borrow-checker in my many tries at solutions
+
